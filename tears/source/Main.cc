@@ -19,3 +19,10 @@
 // with Tears Engine. If not, see <https://www.gnu.org/licenses/>.
 //
 //----------------------------------------------------------------------------//
+
+#include <cstdio>
+
+int main() {
+    printf("yay");
+    return 0;
+}
