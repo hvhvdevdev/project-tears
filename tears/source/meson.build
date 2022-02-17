@@ -24,7 +24,7 @@
 # Source files
 #------------------------------------------------------------------------------#
 sources = ['Main.cc']
-sources += ['common/Vec3f.hh', 'common/Vec3f.inl']
+sources += ['common/Vec3f.hh', 'common/Vec3f_inline.hh']
 
 #------------------------------------------------------------------------------#
 # Dependencies
