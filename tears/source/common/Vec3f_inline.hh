@@ -73,20 +73,20 @@ inline bool Vec3f::operator==( const Vec3f &rhs ) const {
 float Vec3f::GetX() const {
   return x_;
 }
-void Vec3f::SetX( float x ) {
-  x_ = x;
+void Vec3f::SetX( float new_x ) {
+  x_ = new_x;
 }
 float Vec3f::GetY() const {
   return y_;
 }
-void Vec3f::SetY( float y ) {
-  y_ = y;
+void Vec3f::SetY( float new_y ) {
+  y_ = new_y;
 }
 float Vec3f::GetZ() const {
   return z_;
 }
-void Vec3f::SetZ( float z ) {
-  z_ = z;
+void Vec3f::SetZ( float new_z ) {
+  z_ = new_z;
 }
 
 //----------------------------------------------------------------------------//

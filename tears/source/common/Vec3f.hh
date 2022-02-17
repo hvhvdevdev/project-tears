@@ -66,7 +66,8 @@ class Vec3f {
    * \brief Add this \ref Vec3f with another \ref Vec3f
    * \param rhs The right-hand side vector
    * \pre Both this and rhs \ref Vec3f are initialized
-   * \post A new \ref Vec3f vector sum is returned
+   * \post No side effects
+   * \return A new \ref Vec3f vector sum
    * \author hvhvdevdev
    */
   inline Vec3f operator+( const Vec3f& rhs ) const;
@@ -75,7 +76,8 @@ class Vec3f {
    * \brief Subtract this \ref Vec3f by another \ref Vec3f
    * \param rhs The right-hand side vector
    * \pre Both this and rhs \ref Vec3f are initialized
-   * \post A new \ref Vec3f vector difference is returned
+   * \post No side effects
+   * \return A new \ref Vec3f vector difference
    * \author hvhvdevdev
    */
   inline Vec3f operator-( const Vec3f& rhs ) const;
@@ -84,7 +86,8 @@ class Vec3f {
    * \brief Cross-product of this \ref Vec3f and another \ref Vec3f
    * \param rhs The right-hand side vector
    * \pre Both this and rhs \ref Vec3f are initialized
-   * \post A new \ref Vec3f vector product is returned
+   * \post No side effects
+   * \return A new \ref Vec3f vector product
    * \author hvhvdevdev
    */
   inline Vec3f operator*( const Vec3f& rhs ) const;
@@ -93,8 +96,9 @@ class Vec3f {
    * \brief Check if this \ref Vec3f is equal to another \ref Vec3f
    * \param rhs The right-hand side vector
    * \pre Both this and rhs \ref Vec3f are initialized
-   * \post `true` is returned if this \ref Vec3f is equal to another \ref Vec3f.
-   * `false` is returned otherwise
+   * \post No side effects
+   * \return `true` if this \ref Vec3f is equal to another \ref Vec3f.  `false`
+   * otherwise
    * \author hvhvdevdev
    */
   inline bool operator==( const Vec3f& rhs ) const;
@@ -103,7 +107,8 @@ class Vec3f {
    * \brief Dot-product of this \ref Vec3f and another \ref Vec3f
    * \param rhs The right-hand side vector
    * \pre Both this and rhs \ref Vec3f are initialized
-   * \post The scalar product is returned
+   * \post No side effects
+   * \return The scalar product
    * \author hvhvdevdev
    */
   inline float dot( const Vec3f& rhs ) const;
@@ -117,7 +122,13 @@ class Vec3f {
    */
   inline float GetX() const;
 
-  inline void SetX( float x );
+  /*!
+   * \brief Setter for "x" component
+   * \pre None
+   * \post Value of "x" is modified
+   * \param new_x New value for "x"
+   */
+  inline void SetX( float new_x );
 
   /*!
    * \brief Getter for "y" component
@@ -128,7 +139,13 @@ class Vec3f {
    */
   inline float GetY() const;
 
-  inline void SetY( float y );
+  /*!
+   * \brief Setter for "y" component
+   * \pre None
+   * \post Value of "y" is modified
+   * \param new_y New value for "y"
+   */
+  inline void SetY( float new_y );
 
   /*!
    * \brief Getter for "z" component
@@ -139,7 +156,13 @@ class Vec3f {
    */
   inline float GetZ() const;
 
-  inline void SetZ( float z );
+  /*!
+   * \brief Setter for "z" component
+   * \pre None
+   * \post Value of "z" is modified
+   * \param new_z New value for "z"
+   */
+  inline void SetZ( float new_z );
 
  private:
   //! \brief "x" component
