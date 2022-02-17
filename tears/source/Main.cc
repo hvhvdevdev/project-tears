@@ -15,14 +15,16 @@
 // FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
 // details.
 //
-// You should have received a copy of the GNU Lesser General Public License along
-// with Tears Engine. If not, see <https://www.gnu.org/licenses/>.
+// You should have received a copy of the GNU Lesser General Public License
+// along with Tears Engine. If not, see <https://www.gnu.org/licenses/>.
 //
 //----------------------------------------------------------------------------//
 
 #include <cstdio>
 
+#include "common/Vec3f.hh"
+
 int main() {
-    printf("yay");
-    return 0;
+  printf( "yay" );
+  return 0;
 }
