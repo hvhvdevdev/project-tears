@@ -125,7 +125,7 @@ class Vec3f {
   /*!
    * \brief Setter for "x" component
    * \pre None
-   * \post Value of "x" is modified
+   * \post Value of "x" component is modified
    * \param new_x New value for "x"
    */
   inline void SetX( float new_x );
@@ -142,7 +142,7 @@ class Vec3f {
   /*!
    * \brief Setter for "y" component
    * \pre None
-   * \post Value of "y" is modified
+   * \post Value of "y" component is modified
    * \param new_y New value for "y"
    */
   inline void SetY( float new_y );
@@ -159,7 +159,7 @@ class Vec3f {
   /*!
    * \brief Setter for "z" component
    * \pre None
-   * \post Value of "z" is modified
+   * \post Value of "z" component is modified
    * \param new_z New value for "z"
    */
   inline void SetZ( float new_z );
