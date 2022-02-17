@@ -108,6 +108,39 @@ class Vec3f {
    */
   inline float dot( const Vec3f& rhs ) const;
 
+  /*!
+   * \brief Getter for "x" component
+   * \pre this \ref Vec3f is initialized
+   * \post No side effects
+   * \return Value of "x" component
+   * \author hvhvdevdev
+   */
+  inline float GetX() const;
+
+  inline void SetX( float x );
+
+  /*!
+   * \brief Getter for "y" component
+   * \pre this \ref Vec3f is initialized
+   * \post No side effects
+   * \return Value of "y" component
+   * \author hvhvdevdev
+   */
+  inline float GetY() const;
+
+  inline void SetY( float y );
+
+  /*!
+   * \brief Getter for "z" component
+   * \pre this \ref Vec3f is initialized
+   * \post No side effects
+   * \return Value of "z" component
+   * \author hvhvdevdev
+   */
+  inline float GetZ() const;
+
+  inline void SetZ( float z );
+
  private:
   //! \brief "x" component
   float x_;

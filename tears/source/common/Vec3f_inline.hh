@@ -70,6 +70,24 @@ inline Vec3f Vec3f::operator*( const Vec3f &rhs ) const {
 inline bool Vec3f::operator==( const Vec3f &rhs ) const {
   return false;
 }
+float Vec3f::GetX() const {
+  return x_;
+}
+void Vec3f::SetX( float x ) {
+  x_ = x;
+}
+float Vec3f::GetY() const {
+  return y_;
+}
+void Vec3f::SetY( float y ) {
+  y_ = y;
+}
+float Vec3f::GetZ() const {
+  return z_;
+}
+void Vec3f::SetZ( float z ) {
+  z_ = z;
+}
 
 //----------------------------------------------------------------------------//
 
